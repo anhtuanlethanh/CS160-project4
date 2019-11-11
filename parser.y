@@ -55,7 +55,7 @@
 %left T_PLUS '-'
 %left T_MULT T_DIV
 %precedence T_NOT unaryminus
-%%
+
 /* WRITEME: Specify types for all nonterminals and necessary terminals here */
 
 %type <program_ptr> Start
@@ -63,7 +63,7 @@
 %type <class_ptr> class members_methods
 %type <identifier_ptr> T_IDENTIFIER
 %type <integer_ptr> T_NUMBER
-%type <declaration_list_ptr members declarations
+%type <declaration_list_ptr> members declarations
 %type <method_list_ptr> methods
 %type <method_ptr> method
 %type <parameter_list_ptr> parameters
