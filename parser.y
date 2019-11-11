@@ -77,9 +77,9 @@
 %type <expression_ptr> Expression
 %type <assignment_ptr> assignment
 %type <call_ptr> Method_call
-%type <methodcall_ptr> methodcall
-%type <ifelse_ptr> IfElse
-%type <while_ptr> while
+%type <methodcall_ptr> method_call
+%type <ifelse_ptr> if_else
+%type <while_ptr> while_loop
 %type <dowhile_ptr> do_while_loop
 %type <print_ptr> print
 %type <expression_list_ptr> Arguments Arguments_
