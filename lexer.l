@@ -12,9 +12,8 @@
 
 /* WRITEME: Copy any definitions and start conditions from Project 3 here */
 
-%%
-
 /* WRITEME: Copy your Flex rules from Project 3 here */
+
 %x comment
 
 %%
